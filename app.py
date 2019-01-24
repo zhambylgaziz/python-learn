@@ -1,4 +1,7 @@
-#Python lessons
+# Python lessons
+
+# using Learn Python - Full Course for Beginners from freeCodeCamp.org
+# https://youtu.be/rfscVS0vtbw
 
 # --------------------------------------------------------------------
 # 1 - String & Integer
@@ -76,14 +79,57 @@
 # --------------------------------------------------------------------
 # 6 - If Statements
 
+# is_male = True
+# is_tall = False
+
+# if is_male or is_tall:
+#    print("male or short")
+
+# if is_male and is_tall:
+#    print("male and tall")
+# elif is_male and not(is_tall):
+#     print("male and short")
+# elif not(is_male) and is_tall:
+#     print("female and tall")
+# else:
+#     print("female and short")
+
+# --------------------------------------------------------------------
+# 7 - If Statements & Comparisions
+
+# comparing numbers, strings, etc
+# def max(num1, num2, num3):
+#    if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num1 <= num2 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+# print(max(3, 4, 5))
+
+# --------------------------------------------------------------------
+# 8 - Calculator
 
 
+# def calc(num1, op, num2):
+#     if op == "+":
+#         print(num1 + num2)
+#     elif op == "-":
+#         print(num1 - num2)
+#     elif op == "*":
+#         print(num1 * num2)
+#      elif op == "/":
+#          print(num1 / num2)
+#     else:
+#         print("Invalid operator")
 
+# num1 = float(input("Enter first number: " ))
+# op = input("Enter operator: ")
+# num2 = float(input("Enter second number: "))
+# calc(num1, op, num2)
 
-
-
-
-
+# --------------------------------------------------------------------
+# 9 -
 
 
 
